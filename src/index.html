@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic bd</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- daisyui cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.6/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body data-theme="light">
+  <header class="bg-blue-500 py-3  relative">
+    <div class="container auto-max w-3/4  flex justify-between">
+  
+        <h1 class="text-white items-center w-6 pr-2 font-bold pl-10 text-2xl font-sans">OrganicBD</h1>
+     
+      <nav>
+        <button id="main-button" class="text-white text-end flex sm:hidden"> 
+          <i class="fa-solid fa-bars" style="color: #fafcff;"></i>
+         </button>
+        <ul id="main-menu" class="absolute bg-blue-500 w-full left-0 top-10 p-4 text-center hidden sm:block sm:relative sm:top-0  sm:flex  sm:justify-evenly">
+         
+          <li class="mb-2 sm:mb-0 sm:ml-5 p-3 rounded-xl hover:bg-blue-900 hover:transition-colors"><a class="text-white font-semibold" href="#">Home</a></li>
+          <li class="mb-2 sm:mb-0 sm:ml-5 p-3 rounded-xl hover:bg-blue-900 hover:transition-colors"><a class="text-white font-semibold" href="#">LogIn</a></li>
+          <li class="mb-2 sm:mb-0 sm:ml-5 p-3 rounded-xl hover:bg-blue-900 hover:transition-colors"><a class="text-white font-semibold" href="#">SignUp</a></li>
+        </ul>
+      </nav>
+
+
+    </div>
+    
+  </header>
+  <main>
+    <div class="hero min-h-screen bg-base-200">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="text-center lg:text-left">
+          <h1 class="text-5xl font-bold text-2xl">Login now!</h1>
+          <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+        </div>
+        <div class="card flex-shrink-0 w-50 sm:w-full max-w-sm shadow-2xl bg-base-100">
+          <div class="card-body">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Email</span> 
+              </label>
+              <input type="text" placeholder="email" class="input input-bordered" />
+            </div>
+            <div class="form-control"> 
+              <label class="label">
+                <span class="label-text">Password</span>
+              </label>
+              <input type="text" placeholder="password" class="input input-bordered" />
+              <label class="label">
+                <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+              </label>
+              <label class="label">
+                <a href="#" class="label-text-alt link link-hover">create account</a>
+              </label>
+            </div>
+            <div class="form-control mt-6">
+              <button  class="btn btn-primary hover:bg-blue-700"><a href="home.html">Login</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </main>
+
+  <script src="script.js" type="module" ></script>
+ 
+  </body>
+</html>
